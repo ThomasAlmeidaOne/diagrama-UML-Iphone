@@ -23,8 +23,8 @@ Este projeto contém a modelagem e a diagramação UML do componente iPhone, abr
   - `adicionarNovaAba()`
   - `atualizarPagina()`
  
-  - ------------------------------------------------------------------------------------------------------------------------------
-  // Interface ReprodutorMusical
+
+// Interface ReprodutorMusical
 public interface ReprodutorMusical {
     void tocar();
     void pausar();
@@ -53,6 +53,7 @@ public class iPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorN
         // Implementação do método tocar
         System.out.println("Tocando música.");
     }
+
 
     @Override
     public void pausar() {
@@ -103,7 +104,7 @@ public class iPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorN
         // Implementação do método atualizarPagina
         System.out.println("Página atualizada.");
     }
-}
+
  
 ![diagrama-uml-iphone](https://github.com/ThomasAlmeidaOne/diagrama-UML-Iphone/assets/87451474/fa433662-0f06-4605-bbc0-380e30927107)
 
